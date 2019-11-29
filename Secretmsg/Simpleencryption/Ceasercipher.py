@@ -48,3 +48,7 @@ class Ceasercipher:
                 newchar=chr(ord(character)-self.key)
             newmsg+=newchar
         return newmsg
+
+##Description
+##Each letter of plain text is replaced by a letter with some fixed number of positions down with alphabet.
+##Eg: A->D,B->E

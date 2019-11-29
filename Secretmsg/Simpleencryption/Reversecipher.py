@@ -9,3 +9,7 @@ class Reversecipher:
         self.msg=msg
         res=self.msg[::-1]
         return res
+        
+##Description:
+##Inherits features of both Ceasercipher and Doublecipher .
+##Eg:- HELLO -> OLLEH -> PMMFI

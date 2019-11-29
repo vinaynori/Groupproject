@@ -11,3 +11,8 @@ class Doublecipher(Ceasercipher,Reversecipher):
         decp_rev=Reversecipher().revdecrypt(msg,key)
         decp_ceas=Ceasercipher().ceaserdecrypt(decp_rev,key)
         return decp_ceas
+
+
+##Description:
+##Inherits features of both Ceasercipher and Doublecipher .
+##Eg:- HELLO -> OLLEH -> PMMFI
