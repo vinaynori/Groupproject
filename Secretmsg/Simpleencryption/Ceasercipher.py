@@ -1,4 +1,5 @@
-class Ceasercipher: 
+
+class Ceasercipher:
     def __init__(self,key):
         self.key=key
 
